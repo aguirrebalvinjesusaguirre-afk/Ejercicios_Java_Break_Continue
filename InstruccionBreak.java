@@ -1,0 +1,13 @@
+public class InstruccionBreak {
+    public static void main(String[] args) {
+
+        for (int numero = 1; numero <= 10; numero++) {
+            if (numero == 7) {
+                break;
+            }
+
+            System.out.print(numero + " ");
+        }
+
+    }
+}
